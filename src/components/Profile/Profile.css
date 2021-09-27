@@ -1,0 +1,136 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_left > h3 {
+  width: 85px;
+  height: 52px;
+  margin-bottom: 16px;
+  margin-left: 115px;
+  font-family: Albra;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 52px;
+  color: #555a60;
+}
+
+.profileLeft_right_p1 {
+  width: 224px;
+  height: 27px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: -17px;
+  color: #555a60;
+}
+
+.profileLeft_right_p2 {
+  width: 326px;
+  height: 19px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555a60;
+}
+
+.profileLeft_right {
+  margin-left: 20px;
+}
+
+.upload-btn {
+  background: #556170 !important;
+  
+  font-family: Abhaya Libre Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.profile_form-control {
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+
+.profile_form-control > label {
+  margin-bottom: 11px;
+  display: block;
+  margin-top: 11px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #555a60;
+}
+
+.profile_form-control > input {
+  width: 480px;
+  height: 39px;
+  border: 1px solid #c6ccd6;
+  border-radius: 4px;
+}
+
+.profile_form-control > input:focus {
+  outline-width: 2px;
+  outline-color: #14b097;
+}
+
+.submit-btn {
+  
+  margin-top: 10px;
+  background: #14b097 !important;
+  font-family: Abhaya Libre Medium !important;
+
+}
+
+.profile_right {
+  width: 900px;
+  margin-left: 40px;
+  background: #f8f5f3;
+}
+
+.profileLeft__header > img {
+  width: 100px;
+  height: 100px;
+}
+
+.profileLeft__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile_form-control > input {
+    width: 380px;
+  }
+  .profile_form-control {
+    margin-left: 10px;
+  }
+  .profile {
+    justify-content: unset;
+  }
+}

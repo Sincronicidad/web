@@ -1,0 +1,116 @@
+.appHeader {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding: 0 15px;
+  z-index: 999;
+  background: #f8f5f3 !important;
+}
+
+.logo {
+  height: 110px;
+  margin-left: 170px;
+  object-fit: contain;
+  margin-right: 75px;
+  cursor: pointer;
+}
+
+.link {
+  margin-left: 19px;
+  width: 152px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1f1155;
+  mix-blend-mode: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.appHeader__nav {
+  margin-right: 100px;
+}
+
+.linkRight {
+  margin-right: 27px !important;
+  color: #1f1155;
+  mix-blend-mode: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn {
+  background-color: #1f1155 !important;
+  width: 125px !important;
+  height: 48px !important;
+  outline: 0 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.btnSideL {
+  margin: 0 auto !important;
+  width: 150px !important;
+  height: 48px !important;
+  outline: 0 !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+.btnSide {
+  background-color: #1f1155 !important;
+  margin: 0 auto !important;
+  width: 150px !important;
+  height: 48px !important;
+  outline: 0 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+.btnLink {
+  text-decoration: none;
+}
+
+.appHeader__right {
+  margin-right: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.drawerMenu {
+  display: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .drawerMenu {
+    display: flex !important;
+  }
+  .appHeader__nav {
+    display: none !important;
+  }
+  .appHeader__right {
+    display: none !important;
+  }
+  .appHeader {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    padding: 10px !important;
+  }
+
+  .logo {
+    height: 70px;
+    margin-left: 12px;
+    object-fit: contain;
+  }
+}
+
+.listItems {
+  margin-top: 40px !important;
+}
+
+.sideNav_link {
+  padding: 20px !important;
+}

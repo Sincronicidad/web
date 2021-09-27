@@ -1,0 +1,122 @@
+.homeFirstCase {
+    display: flex;
+    justify-content: center;
+    background: #f8f5f3;
+  }
+  .MuiDrawer-root {
+    position: unset !important;
+  }
+  
+  .makeStyles-root-8 {
+   width: 67% !important;
+  }
+  
+  .MuiBackdrop-root {
+    background: #f8f5f3 !important;
+  }
+  
+  .MuiDrawer-paper {
+    width: 300px;
+    overflow-y: unset !important;
+  }
+  
+  .HomeCase_logo {
+    width: 182px !important;
+    height: 182px !important;
+    margin-left: 20px;
+  }
+  
+  .HomeCaseLink {
+    width: 299px;
+    height: 77px;
+    cursor: pointer;
+  }
+  
+  .MuiStepper-vertical {
+    background: inherit !important;
+  }
+  
+  .HomeCaseLink:hover {
+    background: rgba(20, 176, 151, 0.1);
+  }
+  .selected {
+    
+      background: rgba(20, 176, 151, 0.1);
+  }
+  
+  .iconSideNav {
+    width: 29px;
+    height: 35px;
+    margin-right: 23px;
+  }
+  
+  .homeListItem {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 40px;
+  }
+  
+  
+  
+  .logoBottom > img {
+    width: 51px;
+  height: 51px;
+    margin-left: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  .MuiMenu-paper {
+    width: 273px !important;
+    height: 315px !important;
+    margin-left: 100px !important;
+  }
+  
+  .menu__header {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  
+  }
+  
+  .header__info {
+    margin-left: 20px;
+  
+  }
+  .header__info > p {
+    height: 24px;
+  margin-bottom: 0;
+  font-family: Abhaya Libre Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #555A60;
+  }
+
+
+  .header__info > span {  
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555A60;
+  }
+  
+  .menu__header > img {
+    width: 40px;
+    object-fit: contain;
+    margin-top: 20px;
+  }
+  
+  .linkR {
+    text-decoration: none;
+  }

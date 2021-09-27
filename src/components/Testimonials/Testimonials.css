@@ -1,0 +1,107 @@
+.testimonials {
+    background: #F8F5F3;
+}
+
+.testimonials > h1 {
+font-family: Abhaya Libre Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 1px;
+color: #556170;
+    
+}
+
+.testimonial_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F5F3;
+}
+.testimonial_text > p {
+    width: 500px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: Albra;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 56px;
+    text-align: center;
+    color: #1F1155;
+    
+}
+
+.pic-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -150px;
+}
+
+.pic-description > p {
+
+font-family: Abhaya Libre Medium;
+font-style: normal;
+font-weight: 500;
+width: 420px;
+font-size: 20px;
+line-height: 28px;
+margin-left: 65px;
+color: #556170;
+
+}
+
+.below-testimonial  > h4{
+text-align: center;
+margin-left: -240px;
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+color: #282B2D;
+margin-bottom: 0;
+}
+
+.below-testimonial  > h5{
+    text-align: center;
+    margin-left: -180px;
+    margin-top: 4px !important;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 26px;    
+    color: #556170;
+}
+
+
+@media screen and (max-width: 1024px) { 
+    .pic-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .pic-description > p {
+        width: 360px !important;
+    }
+    .testimonials {
+        background: #F8F5F3;
+        margin-top: 100px;
+    }
+
+    .below-testimonial {
+        margin-left: 230px;
+    }
+
+    .testimonial_text > p {
+        font-size: 30px !important;
+    }
+}

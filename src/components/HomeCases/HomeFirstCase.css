@@ -1,0 +1,430 @@
+.homeFirstCase {
+  display: flex;
+  justify-content: center;
+  background: #f8f5f3;
+}
+.MuiDrawer-root {
+  position: unset !important;
+}
+
+.makeStyles-root-8 {
+ width: 67% !important;
+}
+
+.MuiBackdrop-root {
+  background: #f8f5f3 !important;
+}
+
+.MuiDrawer-paper {
+  width: 300px;
+  overflow-y: unset !important;
+}
+
+.HomeCase_logo {
+  width: 182px !important;
+  height: 182px !important;
+  margin-left: 20px;
+}
+
+.HomeCaseLink {
+  width: 299px;
+  height: 77px;
+  cursor: pointer;
+}
+
+.MuiStepper-vertical {
+  background: inherit !important;
+}
+
+.HomeCaseLink:hover {
+  background: rgba(20, 176, 151, 0.1);
+}
+.selected {
+  
+    background: rgba(20, 176, 151, 0.1);
+}
+
+.iconSideNav {
+  width: 29px;
+  height: 35px;
+  margin-right: 23px;
+}
+
+.homeListItem {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 40px;
+}
+
+.stepLabel {
+  margin-left: 30px !important;
+  font-family: Albra !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  line-height: 39px !important;
+  color: #1f1155 !important;
+}
+
+.logoBottom > img {
+  width: 51px;
+height: 51px;
+  margin-left: 40px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.stepperBtn {
+  height: 39px !important;
+  width: 151px !important;
+  border-radius: 4px !important;
+  background: #14b097 !important;
+  border-radius: 4px !important;
+  margin-top: 20px !important;
+  margin-left: 24px !important;
+}
+
+.stepInfo {
+  display: flex;
+}
+.stepInfoForm > h2 {
+  margin-left: 13px;
+}
+
+.stepInfoForm > form {
+  margin-top: 0;
+}
+
+.option {
+  width: 210px;
+  height: 190px;
+  margin: 20px;
+  margin-bottom: 80px;
+  cursor: pointer;
+  background: #ffffff;
+}
+.option > img {
+  /* width: 220px; */
+}
+
+.optionSelected {
+  background: #bdbdbd !important;
+  opacity: 0.3 !important;
+}
+.option:hover {
+  background: #bdbdbd;
+  opacity: 0.3;
+}
+
+.imgStep {
+  width: 114px;
+  height: 103px;
+}
+
+.option > p {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555a60;
+}
+
+.stepInfoForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  background: #e8e8e8;
+  width: 1000px;
+}
+
+.stepInfoForm > .form-control {
+  margin-left: 0 !important;
+}
+
+.form-control > input[type="submit"] {
+  font-family: Abhaya Libre Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-control > textarea {
+  width: 480px;
+height: 96px;
+
+
+background: #FFFFFF;
+border: 1px solid #C6CCD6;
+border-radius: 4px;
+}
+
+.form-control > input:focus {
+  outline-width: 2px;
+  outline-color: #14B097;
+}
+
+.form-control > textarea:focus {
+  outline-width: 2px;
+  outline-color: #14B097;
+}
+
+.form-control > textarea::placeholder {
+  width: 439px;
+height: 76px;
+
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #B1B8C2;
+}
+
+.stepperFileUpload > input {
+  width: 480px;
+  height: 30px;
+  border: 1px solid #c6ccd6;
+  border-radius: 4px;
+}
+
+.stepperFileUpload > input:focus {
+  outline-width: 2px;
+  outline-color: #14b097;
+
+}
+
+.stepperFileUpload > h4 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555a60;
+}
+
+.dragAndDropMenu {
+  width: 507px;
+  height: 227px;
+  margin-left: 30px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.dzu-inputLabel {
+  position: unset !important;
+  font-family: Proxima Nova !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  margin-left: 100px !important;
+  width: 340px !important;
+  height: 58px !important;
+  color: #555a60 !important;
+}
+
+.dzu-dropzone {
+  overflow: unset !important;
+
+}
+
+.zakirDataset > input {
+  margin-bottom: 21px !important;
+}
+
+.stepInfoForm > form > .form-control {
+  margin-left: 13px !important;
+}
+
+.uploadCase {
+  display: flex;
+  width: 867px;
+  height: 250px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.uploadCase__right {
+  margin-top: 20px;
+}
+
+.uploadCase__right > p {
+  margin-bottom: -13px !important;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #555a60;
+}
+.uploadCase__right > p > span {
+  font-family: Abhaya Libre ExtraBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.uploadCase__right {
+  margin-left: 25px;
+}
+
+.uploadCase__left {
+  width: 347px;
+  height: 250px;
+  background: #ffffff;
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadCase__left > img {
+  width: 236px;
+  height: 192px;
+}
+
+.modal_loading {
+  font-family: Albra !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 95px;
+  line-height: 130px !important;
+  text-align: center !important;
+  color: #555a60 !important;
+}
+
+.modal__loadingPer {
+  font-size: 61px !important;
+}
+.modal_goingUp {
+  margin-top: -103px;
+  text-align: center;
+}
+.modal_filesCount {
+  font-family: Abhaya Libre Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #14b097;
+}
+
+.stepperBtnBack {
+  height: 39px !important;
+  width: 100px !important;
+  border-radius: 4px !important;
+  background: #bcd4d0 !important;
+  border-radius: 4px !important;
+  margin-top: 20px !important;
+  margin-left: 24px !important;
+} 
+
+.MuiMenu-paper {
+  width: 273px !important;
+  height: 315px !important;
+  margin-left: 100px !important;
+}
+
+.menu__header {
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.header__info {
+  margin-left: 20px;
+
+}
+.header__info > p {
+  height: 24px;
+margin-bottom: 0;
+font-family: Abhaya Libre Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #555A60;
+}
+.header__info > span {  
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #555A60;
+}
+
+.menu__header > img {
+  width: 40px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.linkR {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+
+  .homeFirstCase {
+    display: unset !important;
+  }
+  .makeStyles-root-15 {
+    width: unset !important;  
+  }
+  .stepLabel {
+
+    font-size: 15px !important;
+
+  }
+
+.stepInfo {
+  flex-direction: column !important;
+}
+.stepInfoForm > form > .form-control > input {
+  width: 250px;
+}
+.stepInfoForm > form > .form-control > textarea {
+  width: 250px;
+}
+.dzu-inputLabelWithFiles {
+  margin-left: -80px;
+}
+
+.stepperFileUpload > input {
+  width: 260px !important;
+  margin-bottom: 10px !important;
+}
+.dragAndDrop {
+  width: 300px !important;
+}
+.dzu-dropzone {
+  overflow: unset !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: fit-content !important;
+  margin-bottom: 100px;
+}
+.dzu-submitButton {
+  margin-left: 100px;
+}
+
+.uploadCase {
+  flex-direction: column;
+  height: fit-content;
+}
+}

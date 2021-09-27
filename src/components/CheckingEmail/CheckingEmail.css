@@ -1,0 +1,125 @@
+.checkingEmail{
+    display: flex;
+    background-color: white !important;
+    height: 100vh;
+}
+
+.transRightSVG {
+     width: 482px !important; 
+    height: 428px !important;
+}
+
+.checking_left  .logo {
+width: 182px;
+height: 182px;
+margin-top: 20px;
+margin-left: 65px;
+
+}
+
+.checking_h2 {
+    width: 377px;
+    height: 29px;
+    margin-left: 131px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #555A60;
+    
+}
+
+.checking_p {
+    width: 480px;
+   height: 172px;
+margin-left: 131px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #555A60;
+}
+
+
+.checking_bullets {
+    width: 561px;
+height: 157px;
+margin-left: 131px;
+margin-top: -120px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #555A60;
+}
+
+
+
+.checking-btn {
+    margin-top: -40px !important;
+margin-left: 131px !important;
+
+}
+
+
+.evaluation_right {
+width: 900px;
+margin-left: 40px;
+background: #F8F5F3;
+}
+
+.evaluation_right > img {
+
+width: 400px;
+height: 400px;
+margin-top: 140px;
+margin-left: 160px;
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .evaluation_right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .checkingEmail {
+        overflow: hidden;
+
+    }
+    .checking_left > img {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .checking_h2 {
+        margin-left: 30px !important;
+        width: 300px !important;
+        font-size: 25px !important;
+    }
+    .checking_p {
+        margin-left: 31px !important;
+        width: 300px !important;
+        margin-top: 40px !important;
+    }
+    .checking_bullets {
+        margin-left: 0 !important;
+        width: 300px !important;
+    }
+
+    .checking-btn {
+        margin-top: 0 !important;
+        margin-left: 20px !important;
+    }
+}
