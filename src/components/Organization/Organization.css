@@ -1,112 +1,124 @@
 .organization {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .organization > h1 {
-  font-family: Abhaya Libre Medium;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  letter-spacing: 1px;
-  margin-bottom: 48px;
-  color: #556170;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 48px;
+    color: #556170;
+    margin-top: 100px;
+    padding-top: 20px;
 }
 
 .companies {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .comp1 {
-  margin-right: 70px;
+    margin-right: 70px;
 }
 
 .info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 799px;
-}
-
-.info > h2 {
-  font-family: Albra;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 54px;
-  line-height: 56px;
-  text-align: center;
-  color: #556170;
-}
-
-.bt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 104px;
-}
-
-.org-btn {
-  font-family: Abhaya Libre Medium !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 16px !important;
-  line-height: 19px !important;
-  text-align: center !important;
-  color: #ffffff !important;
-  background-color: #14b097 !important;
-  border-radius: 4px !important;
-  width: 181px !important;
-  height: 48px !important;
-}
-
-.comp1-img {
-  width: 227px;
-}
-.comp2-img {
-  width: 83px;
-}
-.comp3-img {
-  width: 308px;
-}
-.comp4-img {
-  width: 125px;
-}
-
-@media screen and (max-width: 1024px) {
-  .info {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 350px;
-  }
+    width: 799px;
+}
 
-  .info > h2 {
-    font-size: 25px;
-    line-height: 40px !important;
-  }
-  .comp1-img {
-    width: 100px;
-  }
-  .comp2-img {
-    width: 50px;
-  }
-  .comp3-img {
-    width: 150px;
-  }
-  .comp4-img {
-    width: 40px;
-  }
+.info > h2 {
+    font-family: Albra;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 56px;
+    text-align: center;
+    color: #556170;
+}
+.info > h2 > span {
+    font-family: Albra;
+    font-weight: 900;
+    color: #1f1155;
+}
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 104px;
+}
 
-  .comp1 {
-    margin-right: 10px;
-  }
+.org-btn {
+    font-family: "rubik" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    background-color: #14b097 !important;
+    border-radius: 4px !important;
+    width: 181px !important;
+    height: 48px !important;
+}
 
-  .organization {
-    margin-top: 100px;
-  }
+.comp1-img {
+    width: 227px;
+}
+.comp2-img {
+    width: 83px;
+}
+.comp3-img {
+    width: 308px;
+}
+.comp4-img {
+    width: 125px;
+}
+
+.Organization_bg {
+    position: absolute;
+    top: 2430px;
+    right: 0;
+    z-index: -1;
+}
+@media screen and (max-width: 1024px) {
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .info > h2 {
+        font-size: 25px;
+        line-height: 40px !important;
+    }
+    .comp1-img {
+        width: 100px;
+    }
+    .comp2-img {
+        width: 50px;
+    }
+    .comp3-img {
+        width: 150px;
+    }
+    .comp4-img {
+        width: 40px;
+    }
+
+    .comp1 {
+        margin-right: 10px;
+    }
+
+    .organization {
+        margin-top: 100px;
+    }
 }

@@ -1,0 +1,10 @@
+.HeaderHeroWraper {
+    position: relative;
+}
+.bg_top_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    pointer-events: none;
+}

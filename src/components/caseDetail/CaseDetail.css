@@ -1,44 +1,44 @@
 .caseDetail {
-  background: #ffffff;
-  border-radius: 4px;
-  padding: 10px 30px ;
-  width: 700px;
-  height: fit-content;
-  margin: 40px auto;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    width: 700px;
+    height: fit-content;
+    margin: 40px auto;
 }
 
 .caseDetail_heading {
-  width: 400px;
-  font-family: Albra;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 39px;
-  color: #1f1155;
-  margin-top: 20px;
+    width: 400px;
+    font-family: Albra;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 39px;
+    color: #1f1155;
+    margin-top: 20px;
 }
 
 .caseDetail_progress {
-  display: flex;
-  align-items: center;
-  margin-top: -90px;
+    display: flex;
+    align-items: center;
+    margin-top: -90px;
+    font-family: "rubik";
 }
 
 .caseDetail_progress > div {
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .paragraph {
     width: 548px;
-height: 180px;
-
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
+    height: 180px;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .paragraph > p {
@@ -59,82 +59,81 @@ line-height: 20px;
 }
 
 .progress-row > p {
-margin-right: 20px;
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 36px;
-color: #555A60;
+    margin-right: 20px;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 36px;
+    color: #555a60;
 }
 
 .progress > h6 {
-
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 14px;
-line-height: 17px;
-margin-bottom: 10px;
-color: #555A60;
-
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #555a60;
 }
 
 .progress > p {
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #555A60;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555a60;
 }
 
 .progress-row > h6 {
-width: 75px;
-height: 19px;
-background: rgba(20, 176, 151, 0.2);
-border-radius: 4px;
-text-align: center;
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 12px;
-line-height: 14px;
-color: #14B097;
+    width: 75px;
+    height: 19px;
+    background: rgba(20, 176, 151, 0.2);
+    border-radius: 4px;
+    text-align: center;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    color: #14b097;
+    padding-top: 5px;
 }
 
 .progress-row .blue {
-width: 75px;
-height: 21px;
-background: rgba(74, 144, 226, 0.2);
-border-radius: 4px;
-text-align: center;
-font-family: Abhaya Libre ExtraBold;
-font-style: normal;
-font-weight: 800;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-color: #2375E7;
+    width: 75px;
+    height: 21px;
+    background: rgba(74, 144, 226, 0.2);
+    border-radius: 4px;
+    text-align: center;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #2375e7;
 }
 
 .stepperExpand {
- width: 591px;
- height: 269px;
- margin-top: -30px;
- background: #4A90E2 !important;
- border-radius: 1px;
- padding: 20px;
+    width: 591px;
+    height: 269px;
+    margin-top: -30px;
+    background: #4a90e2 !important;
+    border-radius: 1px;
+    padding: 20px;
 }
 
 .stepperHeader {
-width: 445px;
-height: 42px;
-display: flex;
-padding: 0 10px;
-justify-content: space-between;
-align-items: center;
-background: #FFFFFF;
+    width: 445px;
+    height: 42px;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
 }
 
 .stepperMain {
@@ -146,16 +145,16 @@ background: #FFFFFF;
 }
 
 .stepperMain > p {
-width: 251px;
-height: 32px;
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 32px;
-text-align: center;
-color: #FFFFFF;
-} 
+    width: 251px;
+    height: 32px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+}
 .stepperExpandFooter {
     background-color: white !important;
     margin-left: -20px;
@@ -165,7 +164,6 @@ color: #FFFFFF;
     align-items: center;
 }
 
-
 .stepperExpandFooter > img {
     width: 40px;
     object-fit: contain;
@@ -174,9 +172,9 @@ color: #FFFFFF;
 
 .stepperExpandFooter > p {
     font-family: Abhaya Libre Medium;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 32px;
-color: #14B097;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #14b097;
 }

@@ -1,127 +1,137 @@
 .contact {
-  background: #fafaff;
-  width: 100vw !important;
-  box-shadow: 0px -2px 23px rgba(0, 0, 0, 0.12) !important;
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden !important;
+    background: #fafaff;
+    width: 100vw !important;
+    box-shadow: 0px -2px 23px rgba(0, 0, 0, 0.12) !important;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden !important;
 }
 
 .contactUs > h1 {
-  font-family: Albra;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 54px;
-  line-height: 56px;
-  color: #1f1155;
+    font-family: Albra;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 56px;
+    color: #1f1155;
+    margin-bottom: 80px;
 }
 
 .formControl > label {
-  display: block;
-  margin-bottom: 7px;
-  font-family: Abhaya Libre Medium;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 1px;
+    display: block;
+    margin-bottom: 7px;
+    font-family: "rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
 
-  color: #555a60;
+    color: #555a60;
 }
 
 .formControl > input {
-  width: 468px;
-  height: 42px;
-  outline: 0;
-  border: none;
-  background: #ffffff;
-  box-shadow: 0px 1px 4px rgba(176, 183, 197, 0.54663);
-  border-radius: 4px;
+    width: 468px;
+    height: 42px;
+    outline: 0;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(176, 183, 197, 0.54663);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "rubik";
+    padding: 3px 12px;
 }
 
 .formControl {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .bts {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 104px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 104px;
 }
 
 .cont-btn {
-  font-family: Abhaya Libre Medium !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 16px !important;
-  line-height: 19px !important;
-  text-align: center !important;
-  color: #ffffff !important;
-  background-color: #14b097 !important;
-  border-radius: 4px !important;
-  width: 181px !important;
-  height: 48px !important;
+    font-family: "rubik" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    background-color: #14b097 !important;
+    border-radius: 4px !important;
+    width: 181px !important;
+    height: 48px !important;
 }
 
 .contactImg {
-  margin-top: 136px;
+    margin-top: 136px;
 }
 
 ::placeholder {
-  width: 217px;
-  height: 19px;
-  padding-left: 20px;
+    width: 217px;
+    height: 19px;
+    padding-left: 20px;
 
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 
-  color: #b1b8c2;
+    color: #b1b8c2;
 }
 
 .formControl > textarea {
-  width: 468px;
-  height: 93px;
-  background: #ffffff;
-  box-shadow: 0px 1px 4px rgba(176, 183, 197, 0.54663);
-  border-radius: 4px;
-  outline: 0;
-  border: none;
+    width: 468px;
+    height: 93px;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(176, 183, 197, 0.54663);
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "rubik";
+    padding: 10px 12px;
+    resize: vertical;
 }
 
 .contact-right {
-  margin-left: 79px !important;
+    margin-left: 79px !important;
 }
 
 .questionSvg {
-  margin-left: 157px;
+    margin-left: 130px;
 }
 
 @media screen and (max-width: 1024px) {
-  .contact-right {
-    display: none;
-  }
+    .contact-right {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 520px) {
-  .contact {
-    justify-content: unset !important;
-  }
+    .contact {
+        justify-content: unset !important;
+    }
 
-  .contactUs {
-    margin-left: 20px !important;
-  }
-  .contactUs > h1 {
-    font-size: 30px !important;
-  }
+    .contactUs {
+        margin-left: 20px !important;
+    }
+    .contactUs > h1 {
+        font-size: 30px !important;
+    }
 
-  .formControl > input {
-    width: 340px !important;
-  }
+    .formControl > input {
+        width: 340px !important;
+    }
 
-  .formControl > textarea {
-    width: 340px !important;
-  }
+    .formControl > textarea {
+        width: 340px !important;
+    }
 }
