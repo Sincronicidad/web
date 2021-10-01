@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/appAssets/Assets/Artboard 1 copy.png";
-import restorePasswordSvg from "../../assets/appAssets/Assets/Restablecer Contraseña.png";
+import restorePasswordSvg from "../../assets/appAssets/Assets/Restablecer.png";
 import "./RestorePassword.css";
 import { useNavigate } from 'react-router-dom';
 import Button from "@mui/material/Button";
